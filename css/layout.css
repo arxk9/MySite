@@ -360,6 +360,11 @@ ul#nav li.current a { color: #F06000; }
     -moz-animation: latex 2s ease;
     -webkit-animation: latex 2s ease;
 }
+.more {
+    width: 130%;
+    -moz-animation: more 2s ease;
+    -webkit-animation: more 2s ease;
+}
 
 @-moz-keyframes java {
   0%   { width: 0px;  }
@@ -389,6 +394,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
+@-moz-keyframes more {
+  0%   { width: 0px;  }
+  100% { width: 130%;  }
+}
 
 @-webkit-keyframes java {
   0%   { width: 0px;  }
@@ -417,6 +426,10 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes latex {
   0%   { width: 0px;  }
   100% { width: 80%;  }
+}
+@-webkit-keyframes more {
+  0%   { width: 0px;  }
+  100% { width: 130%;  }
 }
 
 /* ------------------------------------------------------------------ */
