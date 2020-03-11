@@ -361,7 +361,7 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: latex 2s ease;
 }
 .more {
-    width: 130%;
+    width: 170%;
     -moz-animation: more 2s ease;
     -webkit-animation: more 2s ease;
 }
@@ -396,7 +396,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes more {
   0%   { width: 0px;  }
-  100% { width: 130%;  }
+  100% { width: 170%;  }
 }
 
 @-webkit-keyframes java {
@@ -429,7 +429,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes more {
   0%   { width: 0px;  }
-  100% { width: 130%;  }
+  100% { width: 170%;  }
 }
 
 /* ------------------------------------------------------------------ */
